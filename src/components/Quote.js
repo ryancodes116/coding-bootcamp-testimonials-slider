@@ -11,8 +11,10 @@ const Quote = ({ quote, name, title }) => {
       <img src={quotes} />
       <div className={styles.content}>
         <p className={styles.quote}>{quote}</p>
-        <p className={styles.name}>{name}</p>
-        <p className={styles.title}>{title}</p>
+        <div className={styles.info}>
+          <p className={styles.name}>{name}</p>
+          <p className={styles.title}>{title}</p>
+        </div>
       </div>
     </div>
   );

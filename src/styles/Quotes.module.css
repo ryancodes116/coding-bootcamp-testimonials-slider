@@ -34,9 +34,18 @@
     order: 1;
     margin-top: 0;
     margin-bottom: 13rem;
+    text-align: left;
   }
 
   .quote {
     font-size: 1.7rem;
+  }
+
+  .info {
+    display: flex;
+  }
+
+  .name {
+    margin-right: 0.6rem;
   }
 }
