@@ -19,7 +19,15 @@ img {
 }
 
 .container {
-  width: 85%;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+}
+
+@media (min-width: 820px) {
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
 }

@@ -4,6 +4,8 @@ import Quote from './Quote';
 
 import styles from '../styles/Testimonial.module.css';
 
+import classNames from 'classnames';
+
 import reviews from '../reviews';
 
 const Testimonial = () => {
@@ -15,9 +17,14 @@ const Testimonial = () => {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={classNames('container', styles.wrapper)}>
       <Image userImage={review.src} toggleReview={handleToggle} />
-      <Quote quote={review.quote} name={review.name} title={review.title} />
+      <Quote
+        quote={review.quote}
+        name={review.name}
+        title={review.title}
+        className={styles.quote}
+      />
     </div>
   );
 };

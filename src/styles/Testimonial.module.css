@@ -5,3 +5,10 @@
   align-items: center;
   min-height: 100vh;
 }
+
+/* Media Queries */
+@media (min-width: 820px) {
+  .wrapper {
+    flex-direction: row-reverse;
+  }
+}

@@ -27,3 +27,16 @@
   color: hsl(240, 18%, 77%);
   margin-top: 0.2rem;
 }
+
+/* Media Queries */
+@media (min-width: 820px) {
+  .wrapper {
+    order: 1;
+    margin-top: 0;
+    margin-bottom: 13rem;
+  }
+
+  .quote {
+    font-size: 1.7rem;
+  }
+}
