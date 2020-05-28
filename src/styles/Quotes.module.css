@@ -1,0 +1,29 @@
+.wrapper {
+  margin-top: 3rem;
+  position: relative;
+  margin-bottom: 12rem;
+}
+
+.content {
+  position: absolute;
+  top: 65%;
+}
+
+.quote {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: hsl(240, 18%, 77%);
+  margin-top: 0.2rem;
+}
